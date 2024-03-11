@@ -18,18 +18,17 @@ var buffer = new byte[ushort.MaxValue - 29];
 
 while (true)
 {
-    var resultClient = await server.ReceiveAsync();
+    UdpReceiveResult resultClient = default;
+    try { resultClient = await server.ReceiveAsync(); } catch { }
     new Task(async () =>
     {
         var result = resultClient.RemoteEndPoint;
-        int i = 0;
         while (true)
         {
             var imgStream = captureScreenAsync();
             var chunks = imgStream.ToArray().Chunk(ushort.MaxValue - 29).ToList();
-            await Console.Out.WriteLineAsync(chunks.Count().ToString());
             foreach (var item in chunks)
-                await server.SendAsync(item, result);
+                try { await server.SendAsync(item, result); } catch { break; };
 
         }
     }).Start();

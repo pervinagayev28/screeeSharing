@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ServerAppConsole\\ServerAppConsole.csproj": {}
+    "C:\\Users\\user\\Desktop\\screeeSharing\\ServerAppConsole\\ServerAppConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ServerAppConsole\\ServerAppConsole.csproj": {
+    "C:\\Users\\user\\Desktop\\screeeSharing\\ServerAppConsole\\ServerAppConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ServerAppConsole\\ServerAppConsole.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\screeeSharing\\ServerAppConsole\\ServerAppConsole.csproj",
         "projectName": "ServerAppConsole",
-        "projectPath": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ServerAppConsole\\ServerAppConsole.csproj",
-        "packagesPath": "C:\\Users\\a.parvin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ServerAppConsole\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\screeeSharing\\ServerAppConsole\\ServerAppConsole.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\screeeSharing\\ServerAppConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\a.parvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

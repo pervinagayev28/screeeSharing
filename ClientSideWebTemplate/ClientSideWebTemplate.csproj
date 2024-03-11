@@ -7,8 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DotImaging.BitmapSourceInterop" Version="4.8.3" />
-    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.3" />
     <PackageReference Include="System.Drawing.Common" Version="8.0.2" />
   </ItemGroup>
 

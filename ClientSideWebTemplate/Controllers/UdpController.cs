@@ -3,10 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using System.Net.Sockets;
 using System.Net;
 using System;
-using DotImaging;
-using static System.Net.Mime.MediaTypeNames;
 using System.Drawing;
-using SixLabors.ImageSharp.PixelFormats;
+using System.Text.Json;
 
 
 namespace ClientSideWebTemplate.Controllers
@@ -16,21 +14,26 @@ namespace ClientSideWebTemplate.Controllers
     public class UdpController : ControllerBase
     {
         byte[] buffer = new byte[ushort.MaxValue - 29];
-        IPEndPoint endpoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 27001);
-        IPEndPoint remoteep = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 27000);
-        UdpClient client;
-        int maxlen;
+        static IPEndPoint endpoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 27001);
+        static IPEndPoint remoteep = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 27000);
+
+        static UdpClient client;
+        int maxlen = ushort.MaxValue - 29;
         int len = 0;
         List<byte> list = new List<byte>();
-        private static bool once= true;
-        public async Task<IActionResult> SendUdpPacket()
+        private static bool once = true;
+        public void InitializerUdp() =>
+            client = new UdpClient(endpoint);
+
+        [HttpGet("send")]
+        public async Task<Image> GetImage()
         {
-            
-         
-        }
-            [HttpPost("send")]
-        public async Task<IActionResult> GetImage()
-        {
+            if (once)
+            {
+                InitializerUdp();
+                await client.SendAsync(buffer, remoteep);
+                once = false;
+            }
             do
             {
                 var result = await client.ReceiveAsync();
@@ -38,22 +41,14 @@ namespace ClientSideWebTemplate.Controllers
                 len = buffer.Length;
                 list.AddRange(buffer);
             } while (len == maxlen);
-            return decimal; 
+            return Convert(list.ToArray());
 
         }
-        public Bitmap ConvertToBitmap(byte[] byteArray)
+
+        public Image Convert(byte[] buffer)
         {
-            using (MemoryStream stream = new MemoryStream(byteArray))
-            {
-                using (Image<Rgba32> image = Image.Load(stream))
-                {
-                    using (MemoryStream outputStream = new MemoryStream())
-                    {
-                        image.SaveAsBmp(outputStream);
-                        return new Bitmap(outputStream);
-                    }
-                }
-            }
+            using (var ms = new MemoryStream(buffer))
+                return Image.FromStream(ms);
         }
 
     }

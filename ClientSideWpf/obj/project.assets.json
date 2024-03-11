@@ -161,19 +161,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\a.parvin\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ClientSideWpf\\ClientSideWpf.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\screeeSharing\\ClientSideWpf\\ClientSideWpf.csproj",
       "projectName": "ClientSideWpf",
-      "projectPath": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ClientSideWpf\\ClientSideWpf.csproj",
-      "packagesPath": "C:\\Users\\a.parvin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ClientSideWpf\\obj\\",
+      "projectPath": "C:\\Users\\user\\Desktop\\screeeSharing\\ClientSideWpf\\ClientSideWpf.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\screeeSharing\\ClientSideWpf\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\a.parvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -232,7 +232,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
