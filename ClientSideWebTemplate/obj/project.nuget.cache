@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "dgSpecHash": "YlfVsP/vpxC69fpw8R47DyBqJpQTH+Mxe0lhTFPwFM2RX2B96D6mHdmIUwsv/gvvVIRhZsvKl5pG9TDVi/5SJg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ClientSideWebTemplate\\ClientSideWebTemplate.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\a.parvin\\.nuget\\packages\\dotimaging.bitmapsourceinterop\\4.8.3\\dotimaging.bitmapsourceinterop.4.8.3.nupkg.sha512",
+    "C:\\Users\\a.parvin\\.nuget\\packages\\dotimaging.genericimage\\4.8.3\\dotimaging.genericimage.4.8.3.nupkg.sha512",
+    "C:\\Users\\a.parvin\\.nuget\\packages\\dotimaging.primitives2d\\4.8.3\\dotimaging.primitives2d.4.8.3.nupkg.sha512",
+    "C:\\Users\\a.parvin\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\a.parvin\\.nuget\\packages\\sixlabors.imagesharp\\3.1.3\\sixlabors.imagesharp.3.1.3.nupkg.sha512",
+    "C:\\Users\\a.parvin\\.nuget\\packages\\system.drawing.common\\8.0.2\\system.drawing.common.8.0.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotImaging.BitmapSourceInterop 4.8.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotImaging.BitmapSourceInterop",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotImaging.GenericImage 4.8.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotImaging.GenericImage",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotImaging.Primitives2D 4.8.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotImaging.Primitives2D",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

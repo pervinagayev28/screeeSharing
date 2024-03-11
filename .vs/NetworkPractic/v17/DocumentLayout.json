@@ -1,26 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Desktop\\NetworkPractic\\",
+  "WorkspaceRootPath": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{742ADBD2-A42A-4EAA-9C20-8E8285C3E783}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\user\\onedrive\\desktop\\networkpractic\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{742ADBD2-A42A-4EAA-9C20-8E8285C3E783}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B22A28D-5BC3-4B2B-84E3-C9BF7520CCE1}|ClientSideWebTemplate\\ClientSideWebTemplate.csproj|c:\\users\\a.parvin\\desktop\\screeesharing\\clientsidewebtemplate\\controllers\\udpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B22A28D-5BC3-4B2B-84E3-C9BF7520CCE1}|ClientSideWebTemplate\\ClientSideWebTemplate.csproj|solutionrelative:clientsidewebtemplate\\controllers\\udpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75B80543-9A9A-4A91-A189-FAF09C73325C}|ServerAppConsole\\ServerAppConsole.csproj|C:\\Users\\user\\OneDrive\\Desktop\\NetworkPractic\\serverappconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75B80543-9A9A-4A91-A189-FAF09C73325C}|ServerAppConsole\\ServerAppConsole.csproj|solutionrelative:serverappconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EDBE520-A9BE-434D-A506-9979911669E0}|ClientSideWpf\\ClientSideWpf.csproj|C:\\Users\\user\\OneDrive\\Desktop\\NetworkPractic\\clientsidewpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3EDBE520-A9BE-434D-A506-9979911669E0}|ClientSideWpf\\ClientSideWpf.csproj|c:\\users\\a.parvin\\desktop\\screeesharing\\clientsidewpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EDBE520-A9BE-434D-A506-9979911669E0}|ClientSideWpf\\ClientSideWpf.csproj|solutionrelative:clientsidewpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EDBE520-A9BE-434D-A506-9979911669E0}|ClientSideWpf\\ClientSideWpf.csproj|C:\\Users\\user\\OneDrive\\Desktop\\NetworkPractic\\clientsidewpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3EDBE520-A9BE-434D-A506-9979911669E0}|ClientSideWpf\\ClientSideWpf.csproj|solutionrelative:clientsidewpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3B22A28D-5BC3-4B2B-84E3-C9BF7520CCE1}|ClientSideWebTemplate\\ClientSideWebTemplate.csproj|c:\\users\\a.parvin\\desktop\\screeesharing\\clientsidewebtemplate\\views\\webapp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B22A28D-5BC3-4B2B-84E3-C9BF7520CCE1}|ClientSideWebTemplate\\ClientSideWebTemplate.csproj|solutionrelative:clientsidewebtemplate\\views\\webapp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{265B68B7-921F-4FA9-A8EB-0AA7C46F528A}|ClientSideApp\\ClientSideApp.csproj|C:\\Users\\user\\OneDrive\\Desktop\\NetworkPractic\\clientsideapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{265B68B7-921F-4FA9-A8EB-0AA7C46F528A}|ClientSideApp\\ClientSideApp.csproj|solutionrelative:clientsideapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75B80543-9A9A-4A91-A189-FAF09C73325C}|ServerAppConsole\\ServerAppConsole.csproj|c:\\users\\a.parvin\\desktop\\screeesharing\\serverappconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75B80543-9A9A-4A91-A189-FAF09C73325C}|ServerAppConsole\\ServerAppConsole.csproj|solutionrelative:serverappconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B22A28D-5BC3-4B2B-84E3-C9BF7520CCE1}|ClientSideWebTemplate\\ClientSideWebTemplate.csproj|c:\\users\\a.parvin\\desktop\\screeesharing\\clientsidewebtemplate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B22A28D-5BC3-4B2B-84E3-C9BF7520CCE1}|ClientSideWebTemplate\\ClientSideWebTemplate.csproj|solutionrelative:clientsidewebtemplate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B22A28D-5BC3-4B2B-84E3-C9BF7520CCE1}|ClientSideWebTemplate\\ClientSideWebTemplate.csproj|c:\\users\\a.parvin\\desktop\\screeesharing\\clientsidewebtemplate\\controllers\\webapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B22A28D-5BC3-4B2B-84E3-C9BF7520CCE1}|ClientSideWebTemplate\\ClientSideWebTemplate.csproj|solutionrelative:clientsidewebtemplate\\controllers\\webapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EDBE520-A9BE-434D-A506-9979911669E0}|ClientSideWpf\\ClientSideWpf.csproj|c:\\users\\a.parvin\\desktop\\screeesharing\\clientsidewpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3EDBE520-A9BE-434D-A506-9979911669E0}|ClientSideWpf\\ClientSideWpf.csproj|solutionrelative:clientsidewpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,91 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\NetworkPractic\\ConsoleApp1\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\NetworkPractic\\ConsoleApp1\\Program.cs",
-              "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Title": "UdpController.cs",
+              "DocumentMoniker": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ClientSideWebTemplate\\Controllers\\UdpController.cs",
+              "RelativeDocumentMoniker": "ClientSideWebTemplate\\Controllers\\UdpController.cs",
+              "ToolTip": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ClientSideWebTemplate\\Controllers\\UdpController.cs",
+              "RelativeToolTip": "ClientSideWebTemplate\\Controllers\\UdpController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAowDUAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T18:13:53.712Z",
+              "WhenOpened": "2024-03-11T13:45:55.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\NetworkPractic\\ServerAppConsole\\Program.cs",
-              "RelativeDocumentMoniker": "ServerAppConsole\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\NetworkPractic\\ServerAppConsole\\Program.cs",
-              "RelativeToolTip": "ServerAppConsole\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T18:06:17.011Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\NetworkPractic\\ClientSideWpf\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "ClientSideWpf\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\NetworkPractic\\ClientSideWpf\\MainWindow.xaml",
-              "RelativeToolTip": "ClientSideWpf\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-10T10:16:04.878Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\NetworkPractic\\ClientSideWpf\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ClientSideWpf\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\NetworkPractic\\ClientSideWpf\\MainWindow.xaml.cs",
-              "RelativeToolTip": "ClientSideWpf\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAswCgAAAAHAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ClientSideWebTemplate\\Views\\WebApp\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClientSideWebTemplate\\Views\\WebApp\\Index.cshtml",
+              "ToolTip": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ClientSideWebTemplate\\Views\\WebApp\\Index.cshtml",
+              "RelativeToolTip": "ClientSideWebTemplate\\Views\\WebApp\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-11T12:43:21.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebApp.cs",
+              "DocumentMoniker": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ClientSideWebTemplate\\Controllers\\WebApp.cs",
+              "RelativeDocumentMoniker": "ClientSideWebTemplate\\Controllers\\WebApp.cs",
+              "ToolTip": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ClientSideWebTemplate\\Controllers\\WebApp.cs",
+              "RelativeToolTip": "ClientSideWebTemplate\\Controllers\\WebApp.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T10:16:04.52Z"
+              "WhenOpened": "2024-03-11T12:42:31.097Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\NetworkPractic\\ClientSideApp\\Program.cs",
-              "RelativeDocumentMoniker": "ClientSideApp\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\NetworkPractic\\ClientSideApp\\Program.cs",
-              "RelativeToolTip": "ClientSideApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "DocumentMoniker": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ClientSideWebTemplate\\Program.cs",
+              "RelativeDocumentMoniker": "ClientSideWebTemplate\\Program.cs",
+              "ToolTip": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ClientSideWebTemplate\\Program.cs",
+              "RelativeToolTip": "ClientSideWebTemplate\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T09:57:20.304Z"
+              "WhenOpened": "2024-03-11T12:33:45.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ClientSideWpf\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ClientSideWpf\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ClientSideWpf\\MainWindow.xaml",
+              "RelativeToolTip": "ClientSideWpf\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-10T10:16:04.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ClientSideWpf\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ClientSideWpf\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ClientSideWpf\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ClientSideWpf\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T10:16:04.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ServerAppConsole\\Program.cs",
+              "RelativeDocumentMoniker": "ServerAppConsole\\Program.cs",
+              "ToolTip": "C:\\Users\\a.parvin\\Desktop\\screeeSharing\\ServerAppConsole\\Program.cs",
+              "RelativeToolTip": "ServerAppConsole\\Program.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAIwBMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T18:06:17.011Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -13,4 +13,8 @@
     <PackageReference Include="System.Drawing.Common" Version="8.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="bin\Debug\net7.0-windows\" />
+  </ItemGroup>
+
 </Project>

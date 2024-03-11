@@ -1,6 +1,7 @@
 ﻿
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.Net;
@@ -17,48 +18,38 @@ var buffer = new byte[ushort.MaxValue - 29];
 
 while (true)
 {
-    var result = await server.ReceiveAsync();
+    var resultClient = await server.ReceiveAsync();
     new Task(async () =>
     {
-        var imgStream = captureScreenAsync();
-        var chunks = imgStream.ToArray().Chunk(ushort.MaxValue - 29).ToList();
-        await Console.Out.WriteLineAsync(chunks.Count().ToString());
-        foreach (var item in chunks)
+        var result = resultClient.RemoteEndPoint;
+        int i = 0;
+        while (true)
         {
-            await server.SendAsync(item, result.RemoteEndPoint);
-            await Console.Out.WriteLineAsync(item.Length.ToString());
+            var imgStream = captureScreenAsync();
+            var chunks = imgStream.ToArray().Chunk(ushort.MaxValue - 29).ToList();
+            await Console.Out.WriteLineAsync(chunks.Count().ToString());
+            foreach (var item in chunks)
+                await server.SendAsync(item, result);
+
         }
     }).Start();
 
 }
 
 
-Bitmap captureScreenAsync()
+MemoryStream? captureScreenAsync()
 {
-    Rectangle bounds = Screen.GetBounds(Point.Empty);
-    using (Bitmap bitmap = new Bitmap(bounds.Width, bounds.Height))
+    using (Bitmap? bitmap = new Bitmap(1920, 1080))
     {
-        using (Graphics g = Graphics.FromImage(bitmap))
+        using (Graphics gr = Graphics.FromImage(bitmap))
+            gr?.CopyFromScreen(0, 0, 0, 0, new Size(1920, 1080));
+        using (MemoryStream memoryStream = new MemoryStream())
         {
-            g.CopyFromScreen(Point.Empty, Point.Empty, bounds.Size);
+            bitmap?.Save(memoryStream, ImageFormat.Jpeg);
+            return memoryStream;
         }
-        bitmap.Save("test.jpg", ImageFormat.Jpeg);
-        return bitmap;
     }
-}
-//MemoryStream? captureScreenAsync()
-//{
-//    using (Bitmap? bitmap = new Bitmap(1920, 1080))
-//    {
-//        using (Graphics gr = Graphics.FromImage(bitmap))
-//            gr?.CopyFromScreen(0, 0, 0, 0, new Size(1920, 1080));
-//        using (MemoryStream memoryStream = new MemoryStream())
-//        {
-//            bitmap?.Save(memoryStream, ImageFormat.Png);
-//            return memoryStream;
-//        }
-//    }
 
-//}
+}
 
 

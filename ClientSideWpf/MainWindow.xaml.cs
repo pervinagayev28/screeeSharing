@@ -58,10 +58,9 @@ namespace ClientSideWpf
                     buffer = result.Buffer;
                     len = buffer.Length;
                     list.AddRange(buffer);
-                    File.AppendAllText("foom.txt",len+"\n");
                 } while (len == maxlen);
                 img.Source = Convert(list.ToArray());
-
+                list.Clear();
             }
         }
 
