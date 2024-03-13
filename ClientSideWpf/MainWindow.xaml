@@ -6,11 +6,12 @@
         xmlns:local="clr-namespace:ClientSideWpf"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Height="100" Width="400" Content="Start Shareing Scree" FontSize="30" Click="Clicked" x:Name="btn"/>
+    <StackPanel Margin="0,20">
+        <TextBox Height="40" Text="Who?" FontSize="20" FontWeight="Bold" HorizontalContentAlignment="Center" Name="txtbox" Width="400" />
+        <Button IsEnabled="False" Height="100" Width="400" Content="Start Shareing Scree" FontSize="30" Click="Clicked" x:Name="btn"/>
         <!--<MediaElement Height="400" Width="500" Name="img" Visibility="Visible"/>-->
         <Image Name="img" Visibility="Visible"/>
         
 
-    </Grid>
+    </StackPanel>
 </Window>

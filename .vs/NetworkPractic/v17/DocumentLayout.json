@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\screeeSharing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B22A28D-5BC3-4B2B-84E3-C9BF7520CCE1}|ClientSideWebTemplate\\ClientSideWebTemplate.csproj|c:\\users\\user\\desktop\\screeesharing\\clientsidewebtemplate\\controllers\\udpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B22A28D-5BC3-4B2B-84E3-C9BF7520CCE1}|ClientSideWebTemplate\\ClientSideWebTemplate.csproj|solutionrelative:clientsidewebtemplate\\controllers\\udpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B22A28D-5BC3-4B2B-84E3-C9BF7520CCE1}|ClientSideWebTemplate\\ClientSideWebTemplate.csproj|C:\\Users\\user\\Desktop\\screeeSharing\\clientsidewebtemplate\\views\\webapp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3B22A28D-5BC3-4B2B-84E3-C9BF7520CCE1}|ClientSideWebTemplate\\ClientSideWebTemplate.csproj|solutionrelative:clientsidewebtemplate\\views\\webapp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75B80543-9A9A-4A91-A189-FAF09C73325C}|ServerAppConsole\\ServerAppConsole.csproj|C:\\Users\\user\\Desktop\\screeeSharing\\serverappconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75B80543-9A9A-4A91-A189-FAF09C73325C}|ServerAppConsole\\ServerAppConsole.csproj|solutionrelative:serverappconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EDBE520-A9BE-434D-A506-9979911669E0}|ClientSideWpf\\ClientSideWpf.csproj|C:\\Users\\user\\Desktop\\screeeSharing\\clientsidewpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3EDBE520-A9BE-434D-A506-9979911669E0}|ClientSideWpf\\ClientSideWpf.csproj|c:\\users\\user\\desktop\\screeesharing\\clientsidewpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EDBE520-A9BE-434D-A506-9979911669E0}|ClientSideWpf\\ClientSideWpf.csproj|solutionrelative:clientsidewpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B22A28D-5BC3-4B2B-84E3-C9BF7520CCE1}|ClientSideWebTemplate\\ClientSideWebTemplate.csproj|C:\\Users\\user\\Desktop\\screeeSharing\\clientsidewebtemplate\\controllers\\webapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B22A28D-5BC3-4B2B-84E3-C9BF7520CCE1}|ClientSideWebTemplate\\ClientSideWebTemplate.csproj|solutionrelative:clientsidewebtemplate\\controllers\\webapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EDBE520-A9BE-434D-A506-9979911669E0}|ClientSideWpf\\ClientSideWpf.csproj|c:\\users\\user\\desktop\\screeesharing\\clientsidewpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3EDBE520-A9BE-434D-A506-9979911669E0}|ClientSideWpf\\ClientSideWpf.csproj|solutionrelative:clientsidewpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B22A28D-5BC3-4B2B-84E3-C9BF7520CCE1}|ClientSideWebTemplate\\ClientSideWebTemplate.csproj|C:\\Users\\user\\Desktop\\screeeSharing\\clientsidewebtemplate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B22A28D-5BC3-4B2B-84E3-C9BF7520CCE1}|ClientSideWebTemplate\\ClientSideWebTemplate.csproj|solutionrelative:clientsidewebtemplate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75B80543-9A9A-4A91-A189-FAF09C73325C}|ServerAppConsole\\ServerAppConsole.csproj|c:\\users\\user\\desktop\\screeesharing\\serverappconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75B80543-9A9A-4A91-A189-FAF09C73325C}|ServerAppConsole\\ServerAppConsole.csproj|solutionrelative:serverappconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75B80543-9A9A-4A91-A189-FAF09C73325C}|ServerAppConsole\\ServerAppConsole.csproj|c:\\users\\user\\desktop\\screeesharing\\serverappconsole\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75B80543-9A9A-4A91-A189-FAF09C73325C}|ServerAppConsole\\ServerAppConsole.csproj|solutionrelative:serverappconsole\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,64 +55,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UdpController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\screeeSharing\\ClientSideWebTemplate\\Controllers\\UdpController.cs",
-              "RelativeDocumentMoniker": "ClientSideWebTemplate\\Controllers\\UdpController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\screeeSharing\\ClientSideWebTemplate\\Controllers\\UdpController.cs",
-              "RelativeToolTip": "ClientSideWebTemplate\\Controllers\\UdpController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAACsAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T13:45:55.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\screeeSharing\\ClientSideWebTemplate\\Views\\WebApp\\Index.cshtml",
-              "RelativeDocumentMoniker": "ClientSideWebTemplate\\Views\\WebApp\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\screeeSharing\\ClientSideWebTemplate\\Views\\WebApp\\Index.cshtml",
-              "RelativeToolTip": "ClientSideWebTemplate\\Views\\WebApp\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-11T12:43:21.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WebApp.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\screeeSharing\\ClientSideWebTemplate\\Controllers\\WebApp.cs",
-              "RelativeDocumentMoniker": "ClientSideWebTemplate\\Controllers\\WebApp.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\screeeSharing\\ClientSideWebTemplate\\Controllers\\WebApp.cs",
-              "RelativeToolTip": "ClientSideWebTemplate\\Controllers\\WebApp.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T12:42:31.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\screeeSharing\\ClientSideWebTemplate\\Program.cs",
-              "RelativeDocumentMoniker": "ClientSideWebTemplate\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\screeeSharing\\ClientSideWebTemplate\\Program.cs",
-              "RelativeToolTip": "ClientSideWebTemplate\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T12:33:45.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\screeeSharing\\ClientSideWpf\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ClientSideWpf\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\screeeSharing\\ClientSideWpf\\MainWindow.xaml.cs",
               "RelativeToolTip": "ClientSideWpf\\MainWindow.xaml.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAswD4AAAAdAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAwEEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T10:16:04.52Z",
+              "WhenOpened": "2024-03-13T18:44:57.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\screeeSharing\\ClientSideWpf\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ClientSideWpf\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\screeeSharing\\ClientSideWpf\\MainWindow.xaml",
+              "RelativeToolTip": "ClientSideWpf\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-13T18:44:25.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\screeeSharing\\ServerAppConsole\\User.cs",
+              "RelativeDocumentMoniker": "ServerAppConsole\\User.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\screeeSharing\\ServerAppConsole\\User.cs",
+              "RelativeToolTip": "ServerAppConsole\\User.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T18:10:50.441Z",
               "EditorCaption": ""
             },
             {
@@ -131,9 +98,9 @@
               "RelativeDocumentMoniker": "ServerAppConsole\\Program.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\screeeSharing\\ServerAppConsole\\Program.cs",
               "RelativeToolTip": "ServerAppConsole\\Program.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAwC4AAAA5AAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwC4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T18:06:17.011Z",
+              "WhenOpened": "2024-03-13T18:04:10.132Z",
               "EditorCaption": ""
             }
           ]

@@ -40,27 +40,37 @@ namespace ClientSideWpf
 
         private async void Clicked(object sender, RoutedEventArgs e)
         {
+            if (!String.IsNullOrEmpty(txtbox.Text))
+                btn.IsEnabled = true;
+            else
+                return;
             btn.Visibility = Visibility.Hidden;
             img.Visibility = Visibility.Visible;
             var buffer = new byte[ushort.MaxValue - 29];
             IPEndPoint endpoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 27001);
             IPEndPoint remoteep = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 27000);
             var client = new UdpClient(endpoint);
-            await client.SendAsync(buffer, remoteep);
+            await client.SendAsync(Encoding.UTF8.GetBytes(txtbox.Text), remoteep);
             int maxlen = buffer.Length;
             int len = 0;
             var list = new List<byte>();
             while (true)
             {
-                do
+                try
                 {
-                    var result = await client.ReceiveAsync();
-                    buffer = result.Buffer;
-                    len = buffer.Length;
-                    list.AddRange(buffer);
-                } while (len == maxlen);
-                img.Source = Convert(list.ToArray());
-                list.Clear();
+                    do
+                    {
+                        var result = await client.ReceiveAsync();
+                        buffer = result.Buffer;
+                        len = buffer.Length;
+                        list.AddRange(buffer);
+                    } while (len == maxlen);
+                    img.Source = Convert(list.ToArray());
+                    list.Clear();
+                }
+                catch (Exception)
+                {
+                }
             }
         }
 
